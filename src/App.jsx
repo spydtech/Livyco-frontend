@@ -1,6 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import ClientLayout from "./Clients-components/ClientLayout";   
-
+import ClientLayout from "./Clients-components/main/ClientLayout";
 
 function App() {
   return (
@@ -9,7 +8,6 @@ function App() {
       <Routes>
         {/* Client Routes */}
         <Route path="/*" element={<ClientLayout />} />
-        
       </Routes>
     </Router>
   );
