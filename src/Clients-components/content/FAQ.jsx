@@ -36,7 +36,7 @@ export default function FAQ() {
   };
 
   return (
-    <div className="px-10  p-6 bg-gray-100 rounded-lg">
+    <div className="px-10 min-h-screen p-6 bg-[#f8f8ff] rounded-lg">
       <h2 className="text-2xl font-semibold text-center mb-6">FAQ's</h2>
       <div className="space-y-4">
         {faqs.map((faq, index) => (

@@ -1,14 +1,16 @@
-import React from 'react';
+import React from "react";
 
 const PropertyListing = () => {
   return (
-    <div className="flex min-h-screen bg-blue-900 text-white p-6 md:p-12">
+    <div className="flex min-h-screen bg-[#0827b2] text-white p-6 md:p-12">
       {/* Left Section */}
       <div className="w-full md:w-1/2 flex flex-col justify-center">
         <div className="text-yellow-400 text-lg font-bold mb-2">Livyco</div>
         <h1 className="text-3xl font-semibold mb-4">For Property Owners</h1>
         <p className="text-lg mb-6">
-          List out your <span className="text-yellow-400 font-semibold">PG</span> for free with
+          List out your{" "}
+          <span className="text-yellow-400 font-semibold">PG</span> for free
+          with
           <span className="text-yellow-400 font-semibold"> Livyco</span>
         </p>
         <div className="flex bg-blue-950 p-4 rounded-lg w-fit">
@@ -35,20 +37,20 @@ const PropertyListing = () => {
             <input
               type="text"
               placeholder="Name"
-              className="w-full p-3 border rounded-md"
+              className="w-full p-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
             <input
               type="text"
               placeholder="Mobile Number"
-              className="w-full p-3 border rounded-md"
+              className="w-full p-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
             <input
               type="text"
               placeholder="Location"
-              className="w-full p-3 border rounded-md"
+              className="w-full p-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
             <p className="text-sm text-gray-600">
-              Are you a registered user?{' '}
+              Are you a registered user?{" "}
               <span className="text-blue-600 cursor-pointer">Login</span>
             </p>
             <button className="w-full bg-yellow-400 text-black p-3 rounded-md font-semibold">
