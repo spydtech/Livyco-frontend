@@ -8,8 +8,9 @@ function App() {
       {/* <Navbar /> Common Navbar Component */}
       <Routes>
         {/* Client Routes */}
-        <Route path="/*" element={<ClientLayout />} />
-        
+        <Route path="/client/*" element={<ClientLayout />} />
+        {/* Admin Routes */}
+        {/* <Route path="/admin/*" element={<AdminLayout />} /> */}
       </Routes>
     </Router>
   );

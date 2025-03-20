@@ -6,16 +6,23 @@ import { Routes, Route } from "react-router-dom";
 // import NotFound from "../pages/NotFound";
 // import PropertyListing from "./PropertyListing"
 import Clientmain from "./Clientmain";
+import ClientLogin from "./Client-Login/ClientLogin";
+import OTPVerification from "./Client-Login/OTPVerification ";
+import ClientHomePage from "./Client-Home/ClientHomePage";
+import ClientDashboard from "./Client-Dashboard/ClientDashboard";
+// import ClientNav from "./Client-Navbar/ClientNav";
 
 const ClientLayout = () => {
   return (
     <div>
       {/* <Navbar /> */}
       <Routes>
-        <Route path="/" element={<Clientmain />} />
-        {/* <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="*" element={<NotFound />} /> */}
+        <Route path="/client-main" element={<Clientmain />} />
+        
+        <Route path="/client-login" element={<ClientLogin />} />
+        <Route path="/client-otpverify" element={<OTPVerification />} />
+        <Route path="/home" element={<ClientHomePage />} />
+        <Route path="/dashboard" element={<ClientDashboard />} />
         
       </Routes>
     </div>
